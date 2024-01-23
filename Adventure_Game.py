@@ -55,7 +55,7 @@ while not done:
     if answer.lower() == "n" or answer.lower() == "north":
         next_room = room_list[current_room][1]
         if next_room is None:
-            print("You can't go that way.")
+            print("You can't go that way!")
         else:
             current_room = next_room
 
